@@ -4,7 +4,7 @@ from lxml import html, etree
 from collections import Counter
 
 
-# From the original task matching any 3 of 5 attributes(excluding id) guarantees match of elements
+# From the original task I have noticed that matching any 3 of 5 attributes(excluding id) guarantees match of elements
 SIMILARITY_PERCENT = 3/5
 
 
