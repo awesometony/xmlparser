@@ -1,7 +1,12 @@
 # Summary
 This script will find similar elements in two html pages based on similarities of argument values between elements.
 
-# How to run it
+# Requirements
+Installed lxml module. To install it run
+
+* `pip3 install lxml`
+
+# How to run 
 
 * `python3 main.py <path-to-original-html> <path-to-changed-html> <id of element to look for>`
 
